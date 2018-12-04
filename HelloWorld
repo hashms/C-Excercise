@@ -1,0 +1,39 @@
+public class Hello{
+    public static void Main(){
+        // Your code here!
+        /*
+        System.Console.WriteLine("名前を入力");
+        //string msg = "こんにちは！"
+        string name = System.Console.ReadLine();
+        if (name == "Alice" || name == "Bob"){
+            System.Console.Write(name + "さん、");
+        } 
+        System.Console.Write("こんにちは！");
+    }
+}
+*/
+
+/*
+System.Console.WriteLine("名前を入力");
+        string msg = "こんにちは！";
+        string name = System.Console.ReadLine();
+        if (name == "Alice" || name == "Bob"){
+            name += "さん、";
+        } else{
+        name = "";
+        }
+        System.Console.Write(name + msg);
+    }
+}
+*/
+
+
+//System.Console.WriteLine("名前を入力");
+        string msg = "こんにちは！";
+        string name = System.Console.ReadLine();
+        if (name == "Alice" || name == "Bob"){
+            msg = name + "さん、" + msg;
+        } 
+        System.Console.Write( msg );
+    }
+}
